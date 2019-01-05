@@ -1,0 +1,18 @@
+Steps to run the program, executed in terminal.
+In this example the folder to the files is located on the desktop
+NB: Your filepath is maybe not the similar to mine!
+
+1) Activate virtural environment. 
+	source ~/cvpi/bin/activate
+   Deactivate virtural enviroment.
+	deactivate
+
+2) Running the program (notice you can choose detection method between "hog" and "cnn", "hog" is faster).
+	python /home/pi/Desktop/face-recognition-door-opener-raspberry-pi/user_interface.py
+
+- Other()
+Link to installing OpenCV3 to Raspberry pi used in this project.
+https://www.life2coding.com/install-opencv-3-4-0-python-3-raspberry-pi-3/ 
+
+Also remember to install all packages used to this project in virtual enviroment.
+You can install these using the "pip/pip3 install package" command.
